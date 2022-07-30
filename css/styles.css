@@ -1070,7 +1070,7 @@ display: flex;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
-  
+  gap: 8px
     display: flex;
     justify-content: center;
     align-items: center;
