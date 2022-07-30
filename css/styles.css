@@ -555,6 +555,54 @@ margin-bottom: 104px;
   background-color: #2196F3;
 } */
 
+.footer-subscription{
+  margin-left: 93px;
+  
+  }
+  .form-subscription{
+    display: flex;
+    align-items: center;
+      justify-content: center;
+  }
+  .title-subscription{
+    font-family: var(--main-font-family);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    margin-bottom: 20px;
+      color: #FFFFFF;
+      
+  }
+  .subscription-input{
+    background-color: transparent;    
+      min-height: 50px;
+      padding-left: 16px;
+      width: 358px;
+      margin-right: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+      border-radius: 4px;
+  }
+    .footer-subscript::placeholder{
+      font-family: var(--main-font-family);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+      
+        align-items: center;
+        letter-spacing: 0.03em;
+      
+        color: rgba(255, 255, 255, 0.6);
+    }
+        .subscription-icon{
+          width: 24px;
+            height: 24px;
+            margin-left: 10px;
+        }
 .distribution{
   display: flex;
   align-items: baseline;
@@ -796,6 +844,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),background-color 250ms cubi
     justify-content: center;
     background-color: #F5F4FA;
 }
+
 /* modal window */
 .backdrop{
   position: fixed;
@@ -850,7 +899,27 @@ display: flex;
       height: 30px;
         width: 30px;
         cursor: pointer;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-btn:focus,
+.modal-btn:hover .modal-btn-icon{
+  fill: #2196f3;
+  cursor: pointer;
 }
 .modal-btn-icon{
   fill: #000000;
+}
+.modal-form {
+  padding: 40px;
+}
+.modal-form-field{
+  display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    resize: none;
+    width: 100%;
+}
+.modal-title{
+  margin-bottom: 12px;
+
 }
