@@ -1076,7 +1076,8 @@ background-color: var(--accent-color);
 border: none;
 
 } 
-.terms-link{
+.terms-link{ 
+  text-underline-position: under; 
   color: #2196F3;
 }
 .modal-form-terms{
