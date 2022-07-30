@@ -1049,6 +1049,20 @@ display: flex;
     user-select: none;
     text-underline-position: under;
 }
+.terms-check-text{
+  margin-top: 10px;
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .modal-form-terms{
   display: flex;
   align-items: center;
