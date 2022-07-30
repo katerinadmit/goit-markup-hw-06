@@ -1063,7 +1063,14 @@ display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.terms-icon{
+  display: inline-block;
+    margin-right: 7px;
+    width: 16px;
+    height: 15px;
+    border: 1.5px solid #212121;
+    border-radius: 2px;
+}
 .modal-form-terms{
   display: flex;
   align-items: center;
