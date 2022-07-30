@@ -556,14 +556,21 @@ margin-bottom: 104px;
 } */
 
 .footer-subscription{
+ display: flex;
+ flex-direction: column;
   margin-left: 93px;
+  padding: 0;
   
   }
   .form-subscription{
-    display: flex;
+    display: block;
     align-items: center;
       justify-content: center;
-  }
+        }
+    .footer-form-group{
+      display: flex;
+      align-items: center;
+    }
   .title-subscription{
     font-family: var(--main-font-family);
       font-style: normal;
@@ -574,6 +581,8 @@ margin-bottom: 104px;
       text-transform: uppercase;
     margin-bottom: 20px;
       color: #FFFFFF;
+      display: flex;
+      align-items: center;
       
   }
   .subscription-input{
@@ -585,28 +594,72 @@ margin-bottom: 104px;
       border: 1px solid rgba(255, 255, 255, 0.3);
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
       border-radius: 4px;
+      color: #ffffff;
+      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .subscription-input:hover,
+  .subscription-input:focus{
+    border-color: #2196f3;
   }
     .footer-subscript::placeholder{
       font-family: var(--main-font-family);
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.25;
-      
+        line-height: 1.25;      
         align-items: center;
-        letter-spacing: 0.03em;
-      
+        letter-spacing: 0.03em;      
         color: rgba(255, 255, 255, 0.6);
     }
+    .btn-subscription{
+      background-color: #2196F3;
+        color: #FFFFFF;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        text-align: center;
+        letter-spacing: 0.06em;
+        cursor: pointer;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+        border-radius: 4px;
+        padding: 10px 28px;
+        margin: 0 auto;
+        min-width: 200px;
+        max-width: 240px;
+        min-height: 50px;
+        border: 1px transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;   
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .btn-subscription:hover,
+    .btn-subscription:focus{
+          background-color:#2485d4
+        }
+        
+
         .subscription-icon{
           width: 24px;
             height: 24px;
             margin-left: 10px;
         }
+                .form-footer-input:placeholder-shown {
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 1.25;
+                  display: flex;
+                  align-items: center;
+                  letter-spacing: 0.03em;
+                  text-transform: none;
+                  color: rgba(255, 255, 255, 0.6);
+                  
+                }
 .distribution{
   display: flex;
-  align-items: baseline;
-  
+  align-items: baseline;  
 }
 .contact details{
   flex: auto;
