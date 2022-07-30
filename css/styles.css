@@ -922,6 +922,18 @@ visibiity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .backdrop.is-hidden .modal{
   transform: translate(0, 0) scale(0);
 }
+.visually-hidden{
+  position: absolute;
+  white-space:nowrap ;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .modal{
   position: absolute;
   top: 50%;
