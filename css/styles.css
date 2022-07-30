@@ -1071,7 +1071,14 @@ display: flex;
     border: 1.5px solid #212121;
     border-radius: 2px;
 }
+.terms-check:checked +.terms-check-text{
+background-color: var(--accent-color);
+border: none;
 
+} 
+.terms-link{
+  color: #2196F3;
+}
 .modal-form-terms{
   display: flex;
   align-items: center;
