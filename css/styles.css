@@ -951,20 +951,19 @@ display: flex;
     pointer-events: initial;
 }
 .modal-btn{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+      width: 30px;
+      border-radius: 50%;
   position: absolute;
   top: 8px;
-  right: 8px;
-  border-radius: 50%;
+  right: 8px;  
   background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0;
-    display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 30px;
-        width: 30px;
-        cursor: pointer;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(0, 0, 0, 0.1);       
+   cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:focus,
 .modal-btn:hover .modal-btn-icon{
