@@ -1015,12 +1015,13 @@ display: flex;
   border-color: #2196F3;
   border: 1px solid #2196F3;
 }
+.input-icon-wrap {
+  position: relative;
+}
 .modal-form-icon{
   width: 18px;
     height: 18px;
-    position: absolute;
-    margin-top: 11px;
-    margin-bottom: 11px;
+    position: absolute;    
     top: 50%;
     left: 12px;
     transform: translateY(-50%);
