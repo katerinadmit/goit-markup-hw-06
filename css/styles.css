@@ -986,20 +986,28 @@ display: flex;
     position: relative;
 }
 .modal-title{
+  display: block;
   margin: 0;
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: calc(23/20);
     text-align: center;
+    letter-spacing: 0.03em;
+    background-color: transparent;
     color:#212121
+    
 }
 .modal-label{
   display: block;
     margin-bottom: 4px;
     font-size: 12px;
-    line-height: 1.16;
+    line-height: calc(14/12);
     letter-spacing: 0.01em;
+    color: #757575;
+    font-style: normal;
+      font-weight: 400;
+      position: relative;
 }
 .modal-input{
   display: block;
